@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Negative Testing(failed)" verbose="0">
+    <classes>
+      <class name="com.UrbanLadder.TestCases.Negative_Testing">
+        <methods>
+          <include name="Negative_Testing_SignUpPopup"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="Negative_Testing__TrackOrders"/>
+        </methods>
+      </class> <!-- com.UrbanLadder.TestCases.Negative_Testing -->
+    </classes>
+  </test> <!-- Negative Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

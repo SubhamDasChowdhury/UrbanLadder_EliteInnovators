@@ -23,7 +23,7 @@ public class Positive_Testing
 	
 	/***************************Test Scenario 1***************************/
 	/*****************************Bookshelves****************************/
-	@Test(priority=1)
+	@Test(priority=1) //smoke ,regression 
 	public void Homepage() throws Exception 
 	{
 		log.info("*****Bookshelves*****");
@@ -41,10 +41,9 @@ public class Positive_Testing
 		} catch (Exception e) {
 			ReUseable_Classes.reportFail(e.getMessage());
 		}
-		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2) //smoke,regression
 	public void ImplicitWait() throws Exception
 	{
 		//Calling Implicit Wait function required to handle Login PopUp
@@ -60,7 +59,7 @@ public class Positive_Testing
 		}		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3) //smoke,regression
 	public void PopUpClose()
 	{
 		//Verify if PopUp Close Button is Available
@@ -70,12 +69,11 @@ public class Positive_Testing
 		} catch (Exception e) {
 			ReUseable_Classes.reportFail("PopUp Close button Not Available");
 		}
-		
 		//Close PopUp
 		Useable_Classes.popUp();
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4) //smoke,regression
 	public void Search_Bookshelves() throws Exception
 	{
 		//Search Bookshelves by reading data from Excel file
@@ -93,7 +91,7 @@ public class Positive_Testing
 		
 	}
 	
-	@Test(priority=5)
+	@Test(priority=5) //smoke,regression
 	public void SelectCategoryForBookshelves() throws Exception 
 	{
 		//Select Bookshelves Category
@@ -112,7 +110,7 @@ public class Positive_Testing
 		}
 	}
 	
-	@Test(priority=6)
+	@Test(priority=6) //smoke,regression
 	public void Select_Bookshelf_Price() throws Exception 
 	{
 		//Select Bookshelves Price Range
@@ -130,7 +128,7 @@ public class Positive_Testing
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=7)
+	@Test(priority=7) //smoke,regression
 	public void HoverOverStorageType() throws Exception
 	{
 		//Mouse Hover to Storage Type Option
@@ -148,7 +146,7 @@ public class Positive_Testing
 		
 	}
 	
-	@Test(priority=8)
+	@Test(priority=8) //smoke,regression
 	public void SelectOpenStorage() throws Exception
 	{
 		//Select Open Type Storage Checkbox
@@ -169,7 +167,7 @@ public class Positive_Testing
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=9)
+	@Test(priority=9) //smoke,regression
 	public void AssertionCheckForBookshelves() throws Exception {
 		//Handling Assertions
 		//Check if Exclude Out of Stock Option is selected or not 
@@ -192,7 +190,7 @@ public class Positive_Testing
 		test.log(Status.INFO, "Assertion check for Bookshelves Passed");
 	}
 	
-	@Test(priority=10)
+	@Test(priority=10) //regression
 	public void Bookshelves_ScreenShot() throws Exception
 	{
 		//Take Screenshot of the Study Chairs displayed on the Web page
@@ -200,7 +198,7 @@ public class Positive_Testing
 		test1.log(Status.INFO, "Bookshelf Details Screen Shot taken Successfully");
 	}
 	
-	@Test(priority=11)
+	@Test(priority=11) //regression
 	public void WriteExcelBookshelves() throws Exception
 	{
 		//Write the Bookshelf details displayed on Web page to Excel File
@@ -209,7 +207,7 @@ public class Positive_Testing
 	
 	/***************************Test Scenario 2***************************/
 	/****************************Study Chairs****************************/
-	@Test(priority=12)
+	@Test(priority=12) //smoke,regression
 	public void Search_StudyChairs() throws Exception
 	{
 		log.info("*****Study Chairs*****");
@@ -228,7 +226,7 @@ public class Positive_Testing
 				}
 	}
 	
-	@Test(priority=13)
+	@Test(priority=13) //smoke,regression
 	public void SelectCategoryForStudyChairs() throws Exception 
 	{
 		//Selecting Study Chairs option from Category Type
@@ -247,7 +245,7 @@ public class Positive_Testing
 		}
 	}
 	
-	@Test(priority=14)
+	@Test(priority=14) //smoke,regression
 	public void AssertionCheckForStudyChairs() throws Exception {
 		//Handling Assertions
 		//Check if Exclude Out of Stock Option is selected or not 
@@ -270,7 +268,7 @@ public class Positive_Testing
 		test.log(Status.INFO, "Assertion check for Study Chairs Passed");
 	}
 	
-	@Test(priority=15)
+	@Test(priority=15) //regression
 	public void Study_Chairs_ScreenShot() throws Exception
 	{
 		//Take Screenshot of the Study Chairs displayed on the Web page
@@ -278,7 +276,7 @@ public class Positive_Testing
 		test1.log(Status.INFO, "Study Chair Details Screen Shot taken Successfully");
 	}
 	
-	@Test(priority=16)
+	@Test(priority=16) //regression
 	public void WriteExcelChairs() throws Exception
 	{
 		//Write the Study Chair details displayed on Web page to Excel File
@@ -288,7 +286,7 @@ public class Positive_Testing
 	
 	/***************************Test Scenario 3***************************/
 	/*******************************Tables*******************************/
-	@Test(priority=17)
+	@Test(priority=17) //smoke,regression
 	public void Search_Table() throws Exception 
 	{
 		log.info("*****Tables*****");
@@ -320,7 +318,7 @@ public class Positive_Testing
 		Useable_Classes.search_tables();			
 	}
 	
-	@Test(priority=18)
+	@Test(priority=18) //regression
 	public void Select_Table() throws Exception 
 	{
 		//Select the first displayed Table after adding the filters 

@@ -20,7 +20,7 @@ public class PropertiesFile {
 			Useable_Classes.browser = prop.getProperty("browser");
 			Useable_Classes.chromeDriverLocation = prop.getProperty("chromeDriverLocation");
 			Useable_Classes.firefoxDriverLocation = prop.getProperty("firefoxDriverLocation");
-//			DriverSetup.InternetExplorerDriverLocation	= prop.getProperty("InternetExplorerDriverLocation");
+			Useable_Classes.InternetExplorerDriverLocation	= prop.getProperty("InternetExplorerDriverLocation");
 			Useable_Classes.EdgeDriverLocation= prop.getProperty("EdgeDriverLocation");
 			Useable_Classes.url = prop.getProperty("url");
 		} 

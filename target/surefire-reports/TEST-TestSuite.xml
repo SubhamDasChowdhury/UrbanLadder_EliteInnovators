@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="130.531" tests="20" errors="0" skipped="0" failures="2">
+<testsuite name="TestSuite" time="129.777" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.7+8-LTS"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="browser" value="chrome"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse\Projects\Elite_Innovators-UrbanLadderProject"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse\eclipse-workspace\Elite_Innovators-UrbanLadderProject"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -16,103 +15,64 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Eclipse\Projects\Elite_Innovators-UrbanLadderProject"/>
+    <property name="user.dir" value="D:\Eclipse\eclipse-workspace\Elite_Innovators-UrbanLadderProject"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\subha\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\anura\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Eclipse\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\Eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8964177279658775777.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;%M2_HOME%\bin;D:\Eclipse\apache-maven-3.6.3\bin;D:\Eclipse\apache-maven-3.6.3\bin;C:\Users\subha\AppData\Local\Microsoft\WindowsApps;C:\Users\subha\AppData\Roaming\npm;C:\Users\subha\AppData\Local\Programs\Microsoft VS Code\bin;."/>
-    <property name="maven.conf" value="D:\Eclipse\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\anura\Eclipse\apache-maven-3.6.3\bin;C:\Users\anura\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="58.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="D:\Eclipse\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\subha"/>
+    <property name="user.home" value="C:\Users\anura"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="subha"/>
-    <property name="java.class.path" value="D:\Eclipse\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="anura"/>
+    <property name="java.class.path" value="C:\Users\anura\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.7"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="D:\Eclipse\apache-maven-3.6.3\bin\.."/>
+    <property name="maven.home" value="D:\Eclipse\eclipse-workspace\Elite_Innovators-UrbanLadderProject\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2020-04-14"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Homepage" classname="com.UrbanLadder.TestCases.Positive_Testing" time="10.426"/>
-  <testcase name="ImplicitWait" classname="com.UrbanLadder.TestCases.Positive_Testing" time="7.24"/>
-  <testcase name="PopUpClose" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.186"/>
-  <testcase name="Search_Bookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="2.662"/>
-  <testcase name="SelectCategoryForBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="4.32"/>
-  <testcase name="Select_Bookshelf_Price" classname="com.UrbanLadder.TestCases.Positive_Testing" time="4.421"/>
-  <testcase name="HoverOverStorageType" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.242"/>
-  <testcase name="SelectOpenStorage" classname="com.UrbanLadder.TestCases.Positive_Testing" time="6.69"/>
-  <testcase name="AssertionCheckForBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.085"/>
-  <testcase name="Bookshelves_ScreenShot" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.569"/>
-  <testcase name="WriteExcelBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.55"/>
-  <testcase name="Search_StudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="4.13"/>
-  <testcase name="SelectCategoryForStudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="5.3"/>
-  <testcase name="AssertionCheckForStudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.083"/>
-  <testcase name="Study_Chairs_ScreenShot" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.545"/>
-  <testcase name="WriteExcelChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.484"/>
-  <testcase name="Search_Table" classname="com.UrbanLadder.TestCases.Positive_Testing" time="29.73"/>
-  <testcase name="Select_Table" classname="com.UrbanLadder.TestCases.Positive_Testing" time="11.843"/>
-  <testcase name="Negative_Testing_SignUpPopup" classname="com.UrbanLadder.TestCases.Negative_Testing" time="16.413">
-    <failure message="Negative Testing SignUp PopUp #1 PASSED, Please enter a valid email address." type="java.lang.AssertionError">java.lang.AssertionError: Negative Testing SignUp PopUp #1 PASSED, Please enter a valid email address.
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.UrbanLadder.BaseClass.ReUseable_Classes.reportFail(ReUseable_Classes.java:46)
-	at com.UrbanLadder.BaseClass.Useable_Classes.negative_testing_SignupPopup(Useable_Classes.java:452)
-	at com.UrbanLadder.TestCases.Negative_Testing.Negative_Testing_SignUpPopup(Negative_Testing.java:45)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 39054
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1595530651.758][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-Jul 24, 2020 12:27:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Negative_Testing__TrackOrders" classname="com.UrbanLadder.TestCases.Negative_Testing" time="20.612">
-    <failure message="Negative Testing Track Orders #2 PASSED, Please enter valid 10 digit mobile number" type="java.lang.AssertionError">java.lang.AssertionError: Negative Testing Track Orders #2 PASSED, Please enter valid 10 digit mobile number
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.UrbanLadder.BaseClass.ReUseable_Classes.reportFail(ReUseable_Classes.java:46)
-	at com.UrbanLadder.BaseClass.Useable_Classes.negative_testing_TrackOrders(Useable_Classes.java:523)
-	at com.UrbanLadder.TestCases.Negative_Testing.Negative_Testing__TrackOrders(Negative_Testing.java:67)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10607
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1595530686.863][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-Jul 24, 2020 12:28:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="Homepage" classname="com.UrbanLadder.TestCases.Positive_Testing" time="9.337"/>
+  <testcase name="ImplicitWait" classname="com.UrbanLadder.TestCases.Positive_Testing" time="10.053"/>
+  <testcase name="PopUpClose" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.16"/>
+  <testcase name="Search_Bookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="3.461"/>
+  <testcase name="SelectCategoryForBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="4.263"/>
+  <testcase name="Select_Bookshelf_Price" classname="com.UrbanLadder.TestCases.Positive_Testing" time="4.317"/>
+  <testcase name="HoverOverStorageType" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.221"/>
+  <testcase name="SelectOpenStorage" classname="com.UrbanLadder.TestCases.Positive_Testing" time="5.169"/>
+  <testcase name="AssertionCheckForBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.079"/>
+  <testcase name="Bookshelves_ScreenShot" classname="com.UrbanLadder.TestCases.Positive_Testing" time="2.066"/>
+  <testcase name="WriteExcelBookshelves" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.56"/>
+  <testcase name="Search_StudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="3.467"/>
+  <testcase name="SelectCategoryForStudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="5.249"/>
+  <testcase name="AssertionCheckForStudyChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="0.06"/>
+  <testcase name="Study_Chairs_ScreenShot" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.639"/>
+  <testcase name="WriteExcelChairs" classname="com.UrbanLadder.TestCases.Positive_Testing" time="1.457"/>
+  <testcase name="Search_Table" classname="com.UrbanLadder.TestCases.Positive_Testing" time="32.053"/>
+  <testcase name="Select_Table" classname="com.UrbanLadder.TestCases.Positive_Testing" time="8.851"/>
+  <testcase name="Negative_Testing_SignUpPopup" classname="com.UrbanLadder.TestCases.Negative_Testing" time="18.085"/>
+  <testcase name="Negative_Testing__TrackOrders" classname="com.UrbanLadder.TestCases.Negative_Testing" time="18.23"/>
 </testsuite>

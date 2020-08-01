@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Positive Testing(failed)">
+    <classes>
+      <class name="com.UrbanLadder.TestCases.Positive_Testing">
+        <methods>
+          <include name="HoverOverStorageType"/>
+          <include name="Search_Table"/>
+          <include name="SelectCategoryForBookshelves"/>
+          <include name="SelectCategoryForStudyChairs"/>
+          <include name="Select_Table"/>
+          <include name="WriteExcelChairs"/>
+          <include name="PopUpClose"/>
+          <include name="WriteExcelBookshelves"/>
+          <include name="ImplicitWait"/>
+          <include name="Search_Bookshelves"/>
+          <include name="Select_Bookshelf_Price"/>
+          <include name="Study_Chairs_ScreenShot"/>
+          <include name="Homepage"/>
+          <include name="AssertionCheckForStudyChairs"/>
+          <include name="AssertionCheckForBookshelves"/>
+          <include name="Bookshelves_ScreenShot"/>
+          <include name="SelectOpenStorage"/>
+          <include name="Search_StudyChairs"/>
+        </methods>
+      </class> <!-- com.UrbanLadder.TestCases.Positive_Testing -->
+    </classes>
+  </test> <!-- Positive Testing(failed) -->
   <test thread-count="5" name="Negative Testing(failed)">
     <classes>
       <class name="com.UrbanLadder.TestCases.Negative_Testing">

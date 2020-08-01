@@ -21,7 +21,7 @@ public class Negative_Testing {
 	/***************************Test Scenario 4***************************/
 	/*************************Negative Testing #1************************/
 	
-	@BeforeMethod
+	@BeforeMethod //smoke
 	public void openbrowser() throws Exception {
 		// Invoking driver
 		Useable_Classes.getDriver();
@@ -30,7 +30,7 @@ public class Negative_Testing {
 		driver = Useable_Classes.homepage();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1) //smoke,regression
 	public void Negative_Testing_SignUpPopup() throws Exception
 	{
 		//Negative Testing For SignUp Popup

@@ -11,7 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -38,6 +40,7 @@ public class Useable_Classes extends ReUseable_Classes {
 
 	//Browser Selection from Prop.Properties File
 	//Invoking the selected browser
+	@SuppressWarnings("deprecation")
 	public static void getDriver() throws Exception 
 	{
 		log.debug("Invoking Browser");
@@ -57,7 +60,26 @@ public class Useable_Classes extends ReUseable_Classes {
 			System.setProperty("webdriver.edge.driver", EdgeDriverLocation);
 			driver = new EdgeDriver();
 			log.info("Edge Driver Invoked");
-		} else {
+		} else if(browser.equalsIgnoreCase("InternetExplorerDriverLocation")) {
+			System.setProperty("webdriver.ie.driver", InternetExplorerDriverLocation);
+//			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+//			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+//			capabilities.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false); 
+//			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+//			capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+//			capabilities.setCapability("allow-blocked-content", true);
+			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
+
+			ieCapabilities.setCapability("nativeEvents", false);
+			ieCapabilities.setCapability("unexpectedAlertBehaviour", "accept");
+			ieCapabilities.setCapability("ignoreProtectedModeSettings", true);
+			ieCapabilities.setCapability("disable-popup-blocking", true);
+			ieCapabilities.setCapability("enablePersistentHover", true);
+			ieCapabilities.setCapability("ignoreZoomSetting", true);
+			driver = new InternetExplorerDriver(ieCapabilities);
+			log.info("InternetExplorer Driver Invoked");
+		}
+		else {
 			System.out.println("!!!!!!!!!!!!!!!!!!Browser Not Supported!!!!!!!!!!!!!!!!!!");
 			log.fatal("Incorrect Option selected....None of the Drivers are Invoked");
 		}
@@ -445,11 +467,18 @@ public class Useable_Classes extends ReUseable_Classes {
 			Thread.sleep(1000);
 			
 			try {
-				Assert.assertTrue(driver.findElement(PageObjectModel.Assrt_NegativePopUPCheck).isDisplayed());
-				ReUseable_Classes.reportPass("Negative Testing SignUp PopUp #1 FAILED");
+				Assert.assertTrue(driver.findElement(PageObjectModel.InvalidEmailError).isDisplayed());
+				ReUseable_Classes.reportPass("Negative Testing SignUp PopUp #1 PASSED, "+data[1]);
 			} catch (Exception e) {
-				ReUseable_Classes.reportFail("Negative Testing SignUp PopUp #1 PASSED, "+data[1]);
+				ReUseable_Classes.reportFail("Negative Testing SignUp PopUp #1 FAILED");
 			}
+			
+//			try {
+//				Assert.assertTrue(driver.findElement(PageObjectModel.Assrt_NegativePopUPCheck).isDisplayed());
+//				ReUseable_Classes.reportPass("Negative Testing SignUp PopUp #1 FAILED");
+//			} catch (Exception e) {
+//				ReUseable_Classes.reportFail("Negative Testing SignUp PopUp #1 PASSED, "+data[1]);
+//			}
 
 	}
 
@@ -516,11 +545,18 @@ public class Useable_Classes extends ReUseable_Classes {
 			Thread.sleep(1000);
 			
 			try {
-				Assert.assertTrue(driver.findElement(PageObjectModel.Assrt_NegativeTrackOrdersCheck).isDisplayed());
-				ReUseable_Classes.reportPass("Negative Testing Track Orders #2 FAILED");
+				Assert.assertTrue(driver.findElement(PageObjectModel.InvalidPhoneNoError).isDisplayed());
+				ReUseable_Classes.reportPass("Negative Testing Track Orders #2 PASSED, "+data[1]);
 			} catch (Exception e) {
-				ReUseable_Classes.reportFail("Negative Testing Track Orders #2 PASSED, "+data[1]);
+				ReUseable_Classes.reportFail("Negative Testing Track Orders #2 FAILED");
 			}
+			
+//			try {
+//				Assert.assertTrue(driver.findElement(PageObjectModel.Assrt_NegativeTrackOrdersCheck).isDisplayed());
+//				ReUseable_Classes.reportPass("Negative Testing Track Orders #2 FAILED");
+//			} catch (Exception e) {
+//				ReUseable_Classes.reportFail("Negative Testing Track Orders #2 PASSED, "+data[1]);
+//			}
 		
 	}
 

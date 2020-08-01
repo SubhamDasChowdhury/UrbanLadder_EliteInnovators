@@ -1,160 +1,160 @@
-01:21:18.841 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
-01:21:18.844 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
-01:21:18.844 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
-01:21:23.683 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Firefox Driver Invoked
-01:21:23.683 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
-01:21:23.959 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
-01:21:23.979 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
-01:21:23.979 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
-01:21:50.531 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
-01:21:50.531 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
-01:21:50.559 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
-01:21:50.663 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
-01:21:50.769 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
-01:21:51.029 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
-01:21:51.050 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
-01:21:51.069 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Searchbox Located Successfully
-01:21:51.069 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Bookshelves
-01:21:51.483 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Keyword read from Excel Successfully
-01:21:51.555 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click search button
-01:21:51.599 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Search Button Clicked
-01:21:55.947 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Category For Bookshelves
-01:21:56.063 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Category Selection for Bookshelves Done Successfully
-01:21:58.108 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Price Selection for Bookshelves
-01:21:58.198 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Price Selected Successfully
-01:22:02.293 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hover Over Storage Type For Bookshelves
-01:22:02.446 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Hovered Over Storage Type Successfully
-01:22:03.509 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Open Storage for Bookshelves
-01:22:03.773 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - OpenStorage Selected Successfully
-01:22:23.718 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
-01:22:23.953 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
-01:22:23.955 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Bookshelves Details from WebPage
-01:22:24.173 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Details read from WebPage Done Successfully
-01:22:24.173 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Bookshelves Details from WebPage to Excel File
-01:22:24.254 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Details from WebPage written to Excel Successfully
-01:22:24.254 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
-01:22:24.264 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - *****Study Chairs*****
-01:22:24.264 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
-01:22:24.277 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Located Successfully
-01:22:24.277 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clear the contents of search box
-01:22:24.328 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Contents of Search Box cleared Successfully
-01:22:24.328 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Study Chairs
-01:22:24.346 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Keyword read from Excel Successful
-01:22:24.406 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hit Enter to start search for Study Chairs
-01:22:24.459 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Searched Successfully
-01:22:26.508 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Category Selection for Study Chairs
-01:22:28.608 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chairs Category Selection Successful
-01:22:32.682 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
-01:22:32.900 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
-01:22:32.902 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Study Chair Details from WebPage
-01:22:33.115 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Details read from WebPage Done Successfully
-01:22:33.115 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Study Chair Details from WebPage to Excel File
-01:22:33.138 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Details from WebPage written to Excel Successfully
-01:22:33.138 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
-01:22:33.834 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
-01:22:33.834 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
-01:22:34.103 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
-01:22:34.104 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
-01:22:34.104 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
-01:22:37.901 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Firefox Driver Invoked
-01:22:37.901 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
-01:22:38.167 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
-01:22:38.181 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
-01:22:38.182 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
-01:22:56.176 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
-01:22:56.176 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
-01:22:56.195 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
-01:22:56.281 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
-01:22:56.281 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
-01:22:56.534 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
-01:22:56.556 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
-01:22:56.577 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Located Successfully
-01:22:56.577 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Table
-01:22:56.597 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Tables Keyword read from Excel Successful
-01:22:56.658 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hit Enter to start search for Tables
-01:22:56.708 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Tables Searched Successfully
-01:22:56.708 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hover Over Category Type For Tables
-01:22:59.615 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Hovered Over Category Type Successfully
-01:22:59.617 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Bedside Tables Category for Tables
-01:22:59.907 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Tables Category Selected Sucessfully
-01:23:01.909 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Sort By Option for Bedside Tables
-01:23:03.976 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Sort By Option - High To Low Selected Successfully for Bedside Tables
-01:23:05.976 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Refresh Web Page
-01:23:27.798 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Refresh Web Page Successful
-01:23:30.800 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select first Bedside Table that is displayed
-01:23:31.071 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - First Displayed Bedside Table Selected Successfully
-01:23:31.071 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Window Handle
-01:23:31.093 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Handle Done Successfully
-01:23:31.093 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Bedside Table Details from WebPage
-01:23:35.696 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Details read from WebPage Done Successfully
-01:23:35.697 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Bedside Table Details from WebPage to Excel File
-01:23:35.744 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Details from WebPage written to Excel Successfully
-01:23:37.745 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Add to Cart
-01:23:43.322 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Add to Cart Clicked Successfully
-01:23:43.322 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot of Bedside Table
-01:23:44.323 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
-01:23:44.433 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
-01:23:44.433 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Screenshot Taken Successfully
-01:23:44.433 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
-01:23:45.152 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
-01:23:45.152 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
-01:23:45.198 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
-01:23:45.198 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
-01:23:45.198 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
-01:23:48.990 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Firefox Driver Invoked
-01:23:48.990 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
-01:23:49.260 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
-01:23:49.272 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
-01:23:49.272 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
-01:24:03.218 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
-01:24:03.219 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
-01:24:03.220 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
-01:24:04.946 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
-01:24:06.966 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Email ID Detail
-01:24:08.018 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Email ID Detail Entered Successfully
-01:24:08.018 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Sign Up Button
-01:24:08.294 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Sign Up Button Clicked Successfully
-01:24:10.295 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot For Invalid Email ID
-01:24:11.295 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
-01:24:11.754 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
-01:24:11.754 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Invalid Email ID, Screen Shot taken Successfully
-01:24:11.754 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Retrieve error message for Invalid Email
-01:24:11.783 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Email Retrieved Successfully
-01:24:11.784 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Error message for Invalid Email ID from WebPage to Excel File
-01:24:11.793 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Email ID from WebPage written to Excel File Successfully
-01:24:17.823 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
-01:24:18.510 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
-01:24:18.510 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
-01:24:18.533 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
-01:24:18.533 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
-01:24:18.533 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
-01:24:22.316 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Firefox Driver Invoked
-01:24:22.316 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
-01:24:22.581 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
-01:24:22.594 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
-01:24:22.594 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
-01:24:30.846 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
-01:24:30.846 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
-01:24:30.847 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
-01:24:37.977 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
-01:24:37.978 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
-01:24:38.251 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
-01:24:38.268 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Track Order
-01:24:41.634 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Track Order Clicked Successfully
-01:24:41.634 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Order No Detail
-01:24:42.703 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Order No Detail Entered Successfully
-01:24:42.703 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Phone No Detail
-01:24:43.759 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Phone No Detail Entered Successfully
-01:24:43.759 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Submit Button
-01:24:44.004 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Submit Button Clicked Successfully
-01:24:46.004 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot For Invalid Phone No
-01:24:47.005 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
-01:24:47.083 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
-01:24:47.083 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Invalid Phone No, Screen Shot taken Successfully
-01:24:47.084 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Retrieve error message for Invalid Phone No
-01:24:47.137 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Phone No Retrieved Successfully
-01:24:47.137 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Error message for Invalid Phone No from WebPage to Excel File
-01:24:47.153 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Phone No from WebPage written to Excel File Successfully
-01:24:53.179 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
-01:24:53.860 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
-01:24:53.860 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
+14:05:02.722 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
+14:05:02.724 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
+14:05:02.725 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
+14:05:05.735 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Chrome Driver Invoked
+14:05:05.735 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
+14:05:06.874 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
+14:05:06.910 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
+14:05:06.910 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
+14:05:12.514 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
+14:05:12.514 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
+14:05:12.540 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
+14:05:20.303 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
+14:05:20.457 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
+14:05:20.574 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
+14:05:20.603 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
+14:05:20.639 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Searchbox Located Successfully
+14:05:20.639 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Bookshelves
+14:05:21.229 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Keyword read from Excel Successfully
+14:05:21.341 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click search button
+14:05:24.265 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Search Button Clicked
+14:05:26.558 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Category For Bookshelves
+14:05:26.760 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Category Selection for Bookshelves Done Successfully
+14:05:28.807 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Price Selection for Bookshelves
+14:05:28.982 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Price Selected Successfully
+14:05:33.062 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hover Over Storage Type For Bookshelves
+14:05:33.210 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Hovered Over Storage Type Successfully
+14:05:34.276 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Open Storage for Bookshelves
+14:05:34.395 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - OpenStorage Selected Successfully
+14:05:40.937 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
+14:05:41.489 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
+14:05:41.490 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Bookshelves Details from WebPage
+14:05:41.807 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Details read from WebPage Done Successfully
+14:05:41.807 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Bookshelves Details from WebPage to Excel File
+14:05:41.900 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bookshelves Details from WebPage written to Excel Successfully
+14:05:41.900 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
+14:05:41.913 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - *****Study Chairs*****
+14:05:41.913 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
+14:05:41.931 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Located Successfully
+14:05:41.932 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clear the contents of search box
+14:05:42.045 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Contents of Search Box cleared Successfully
+14:05:42.045 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Study Chairs
+14:05:42.061 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Keyword read from Excel Successful
+14:05:42.148 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hit Enter to start search for Study Chairs
+14:05:43.993 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Searched Successfully
+14:05:46.044 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Category Selection for Study Chairs
+14:05:48.222 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chairs Category Selection Successful
+14:05:52.314 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
+14:05:52.804 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
+14:05:52.805 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Study Chair Details from WebPage
+14:05:53.114 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Details read from WebPage Done Successfully
+14:05:53.114 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Study Chair Details from WebPage to Excel File
+14:05:53.138 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Study Chair Details from WebPage written to Excel Successfully
+14:05:53.138 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
+14:05:53.903 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
+14:05:53.903 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
+14:05:54.204 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
+14:05:54.204 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
+14:05:54.204 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
+14:05:56.807 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Chrome Driver Invoked
+14:05:56.808 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
+14:05:57.943 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
+14:05:57.963 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
+14:05:57.964 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
+14:06:04.751 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
+14:06:04.752 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
+14:06:04.768 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
+14:06:10.426 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
+14:06:10.427 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
+14:06:10.597 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
+14:06:10.621 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Locate
+14:06:10.658 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - SearchBox Located Successfully
+14:06:10.658 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Excel Data for Table
+14:06:10.681 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Tables Keyword read from Excel Successful
+14:06:10.849 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hit Enter to start search for Tables
+14:06:13.764 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Tables Searched Successfully
+14:06:13.764 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hover Over Category Type For Tables
+14:06:14.032 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Hovered Over Category Type Successfully
+14:06:14.032 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Bedside Tables Category for Tables
+14:06:15.451 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Tables Category Selected Sucessfully
+14:06:17.453 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select Sort By Option for Bedside Tables
+14:06:20.630 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Sort By Option - High To Low Selected Successfully for Bedside Tables
+14:06:22.632 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Refresh Web Page
+14:06:22.658 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Refresh Web Page Successful
+14:06:25.660 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Select first Bedside Table that is displayed
+14:06:25.918 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - First Displayed Bedside Table Selected Successfully
+14:06:25.918 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Window Handle
+14:06:25.975 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Handle Done Successfully
+14:06:25.975 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Read Bedside Table Details from WebPage
+14:06:30.184 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Details read from WebPage Done Successfully
+14:06:30.185 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Bedside Table Details from WebPage to Excel File
+14:06:30.262 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Details from WebPage written to Excel Successfully
+14:06:32.262 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Add to Cart
+14:06:36.435 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Add to Cart Clicked Successfully
+14:06:36.435 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot of Bedside Table
+14:06:37.436 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
+14:06:37.865 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
+14:06:37.866 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Bedside Table Screenshot Taken Successfully
+14:06:37.866 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
+14:06:38.577 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
+14:06:38.577 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
+14:06:38.655 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
+14:06:38.655 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
+14:06:38.656 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
+14:06:41.668 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Chrome Driver Invoked
+14:06:41.668 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
+14:06:42.841 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
+14:06:42.916 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
+14:06:42.917 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
+14:07:08.873 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
+14:07:08.873 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
+14:07:08.875 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
+14:07:08.961 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
+14:07:10.975 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Email ID Detail
+14:07:12.072 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Email ID Detail Entered Successfully
+14:07:12.072 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Sign Up Button
+14:07:12.183 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Sign Up Button Clicked Successfully
+14:07:14.184 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot For Invalid Email ID
+14:07:15.185 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
+14:07:15.708 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
+14:07:15.708 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Invalid Email ID, Screen Shot taken Successfully
+14:07:15.708 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Retrieve error message for Invalid Email
+14:07:15.745 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Email Retrieved Successfully
+14:07:15.745 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Error message for Invalid Email ID from WebPage to Excel File
+14:07:15.757 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Email ID from WebPage written to Excel File Successfully
+14:07:16.839 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
+14:07:17.638 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
+14:07:17.638 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
+14:07:17.661 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Invoking Browser
+14:07:17.662 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Reading Properties File
+14:07:17.662 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Properties File read Successfully
+14:07:20.241 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Chrome Driver Invoked
+14:07:20.241 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Maximizing Window
+14:07:21.384 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Window Maximized
+14:07:21.406 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Invoked Successfully
+14:07:21.406 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Hitting URL
+14:07:27.121 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - URL Opened
+14:07:27.122 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Homepage Opened Successfully
+14:07:27.122 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Waiting for Popup
+14:07:34.813 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp appeared, WebDriverWait applied successfully
+14:07:34.813 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Clicking Popup
+14:07:34.908 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - PopUp Closed
+14:07:34.938 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Track Order
+14:07:36.557 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Track Order Clicked Successfully
+14:07:36.557 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Order No Detail
+14:07:37.685 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Order No Detail Entered Successfully
+14:07:37.686 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Enter the Phone No Detail
+14:07:38.793 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Phone No Detail Entered Successfully
+14:07:38.793 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Click on Submit Button
+14:07:38.921 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Submit Button Clicked Successfully
+14:07:40.922 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Take Screenshot For Invalid Phone No
+14:07:41.922 [main] DEBUG com.UrbanLadder.BaseClass.ReUseable_Classes - Take Screenshot
+14:07:42.304 [main] INFO  com.UrbanLadder.BaseClass.ReUseable_Classes - Screenshot Taken Successfully
+14:07:42.304 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Invalid Phone No, Screen Shot taken Successfully
+14:07:42.304 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Retrieve error message for Invalid Phone No
+14:07:42.373 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Phone No Retrieved Successfully
+14:07:42.373 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Write Error message for Invalid Phone No from WebPage to Excel File
+14:07:42.404 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Error message for Invalid Phone No from WebPage written to Excel File Successfully
+14:07:43.473 [main] DEBUG com.UrbanLadder.BaseClass.Useable_Classes - Close Browser
+14:07:44.280 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - Browser Closed Successfully
+14:07:44.280 [main] INFO  com.UrbanLadder.BaseClass.Useable_Classes - **************************************************************************
